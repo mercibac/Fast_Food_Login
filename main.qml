@@ -12,7 +12,8 @@ Window {
     title: qsTr("Hello World")
 
     // Make the window Frameless
-    flags: Qt.FramelessWindowHint
+    flags: Qt.Window | Qt.FramelessWindowHint
+
     Rectangle {
         id: mainContainer
         color: "#ffffff"
